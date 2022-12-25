@@ -14,9 +14,39 @@
   --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
+  --light-blue: #D6E1F0;
 }
 
 @font-face {
   font-family: 'Outfit', sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+}
+
+body {
+  background-color: var(--light-blue);
+}
+
+.card {
+  max-width: 330px;
+  background-color: var(--white);
+  padding: 1rem;
+  margin: 10rem auto;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.card__image {
+  width: 300px;
+  height: 301px;
+}
+
+.card__title {
+  color: var(--dark-blue);
+  font-size: 15pt;
+  margin: 1rem;
+}
+
+.card__text {
+  color: var(--grayish-blue);
+  margin: 0 1rem 1rem 1rem;
 }
